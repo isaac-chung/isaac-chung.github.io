@@ -5,7 +5,7 @@
 ### Data Science
 
 [Predicting Used Car Prices in Toronto](/car_prices)
-<img src="images/usedcargraphs.png?raw=true"/>
+<img src="images/usedcargraphs.PNG?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
