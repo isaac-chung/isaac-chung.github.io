@@ -4,7 +4,7 @@
 
 ### Data Science
 
-[Predicting Used Car Prices in Toronto](https://github.com/isaac-chung/Predicting-Used-Car-Prices-in-Toronto)
+[Predicting Used Car Prices in Toronto](/car_prices)
 <img src="images/usedcargraphs.png?raw=true"/>
 
 ---
