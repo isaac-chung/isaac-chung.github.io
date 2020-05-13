@@ -1,5 +1,5 @@
 # Predicting Used Car Prices in Toronto
-This mini-project predicts used sedan prices in Toronto using Machine Learning models trained with Autotrader data. This was used for a short 5-8 minute demo in an data-science related interview. The purpose of the project is to showcase how specific Python libraries are used for
+This [mini-project](https://github.com/isaac-chung/Predicting-Used-Car-Prices-in-Toronto) predicts used sedan prices in Toronto using Machine Learning models trained with Autotrader data. This was used for a short 5-8 minute demo in an data-science related interview. The purpose of the project is to showcase how specific Python libraries are used for
 * Web Scraping
 * Data Manipulation
 * Data Cleaning
