@@ -8,12 +8,22 @@
 <img src="images/usedcargraphs.PNG?raw=true"/>
 
 ---
-[Topic Modelling on NIPS Conference Papers](/pdf/sample_presentation.pdf)
+[Topic Modelling with News Headlines](/topic_modeling)
+
+---
+
+### Machine Learning
+
+[Classifying Real vs. Fake New Headlines](/fakenews)
+(CSC2515)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Classifying Handwritten digits using Gaussian Discriminant Analysis](http://example.com/)
+<img src="images/tree.PNG?raw=true"/>
+
+---
+[Image Completion using Mixture of Bernoullis]()
 
 ---
 
