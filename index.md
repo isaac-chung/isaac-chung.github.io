@@ -18,18 +18,19 @@
 (CSC2515)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+
 ---
-[Classifying Handwritten digits using Gaussian Discriminant Analysis](http://example.com/)
+[Classifying Handwritten digits using Gaussian Discriminant Analysis](/gda_digits)
 <img src="images/tree.PNG?raw=true"/>
 
 ---
-[Image Completion using Mixture of Bernoullis]()
+[Image Completion using Mixture of Bernoullis](/image_completion)
 
 ---
 
 ### Reseach
 
-- [Functional Tensor-Train Decomposition](http://example.com/)
+- [Functional Tensor-Train Decomposition](/fttd)
 
 
 ---
