@@ -15,13 +15,13 @@
 ### Machine Learning
 
 [Classifying Real vs. Fake New Headlines](/fakenews)
-(CSC2515)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+(CSC2515)\
+![Decision Tree](/images/tree.png)
 
 
 ---
 [Classifying Handwritten digits using Gaussian Discriminant Analysis](/gda_digits)
-<img src="images/tree.PNG?raw=true"/>
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Image Completion using Mixture of Bernoullis](/image_completion)
@@ -30,8 +30,8 @@
 
 ### Reseach
 
-- [Functional Tensor-Train Decomposition](/fttd)
-
+[Functional Tensor-Train Decomposition](/fttd)\
+![Gorodetsky and Jakeman 2018](/images/fttd.PNG)
 
 ---
 
