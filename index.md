@@ -15,7 +15,7 @@
 ### Machine Learning
 
 [Classifying Real vs. Fake New Headlines](/fakenews)
-(CSC2515)\
+(CSC2515)
 ![Decision Tree](/images/tree.png)
 
 
@@ -30,7 +30,7 @@
 
 ### Reseach
 
-[Functional Tensor-Train Decomposition](/fttd)\
+[Functional Tensor-Train Decomposition](/fttd)
 ![Gorodetsky and Jakeman 2018](/images/fttd.PNG)
 
 ---
