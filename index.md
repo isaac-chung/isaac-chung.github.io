@@ -9,6 +9,11 @@
 
 ---
 [Topic Modelling with News Headlines](/topic_modeling)
+![NLP](/images/LDAvis.png)
+
+---
+[Seasonal Demand Forecasting](/time-series_forecasting)
+![time-series](/images/time-series.png)
 
 ---
 
@@ -17,7 +22,6 @@
 [Classifying Real vs. Fake New Headlines](/fakenews)
 (CSC2515)
 ![Decision Tree](/images/tree.png)
-
 
 ---
 [Classifying Handwritten digits using Gaussian Discriminant Analysis](/gda_digits)
