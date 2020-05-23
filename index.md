@@ -13,7 +13,7 @@
 
 ---
 [Seasonal Demand Forecasting](/time-series_forecasting)
-![time-series](/images/time-series.png)
+![time-series](/images/time-series.PNG)
 
 ---
 
@@ -32,7 +32,7 @@
 
 ---
 
-### Reseach
+### Research
 
 [Functional Tensor-Train Decomposition](/fttd)
 ![Gorodetsky and Jakeman 2018](/images/fttd.PNG)
