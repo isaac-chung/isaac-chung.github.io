@@ -4,6 +4,10 @@
 
 ### Data Science
 
+[NextPick: Insight Data Science](https://github.com/isaac-chung/nextpick)
+![nextpick](/images/nextpick_lp.png)
+
+---
 [Predicting Used Car Prices in Toronto](/car_prices)
 <img src="images/usedcargraphs.PNG?raw=true"/>
 
