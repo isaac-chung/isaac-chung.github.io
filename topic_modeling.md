@@ -10,7 +10,14 @@ The purpose of the project is to showcase how to approach an NLP exercise, inclu
   * stop words removal
   * word stemming / lemmatizing
 * word frequency
-* topic modeling with Latent Dirichlet Allocation (LDA).
+* topic modeling with Latent Dirichlet Allocation (LDA),
+
+with the following packages:
+* NLTK
+* spaCy
+* wordcloud
+* Gensim
+* Scikit-learn
 
 
 ## Dependencies
