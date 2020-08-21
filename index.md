@@ -28,8 +28,8 @@
 ![Decision Tree](/images/tree.png)
 
 ---
-[Classifying Handwritten digits using Gaussian Discriminant Analysis](/gda_digits)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Classifying Handwritten digits using TensorFlow](https://github.com/isaac-chung/CSC2515-coursework/blob/master/extras/Logistic%20Regression%20with%20MNIST.ipynb)
+![MNIST-tensorflow2](/images/random-digits.png)
 
 ---
 [Image Completion using Mixture of Bernoullis](/image_completion)
