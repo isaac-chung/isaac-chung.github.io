@@ -48,7 +48,7 @@ body {
 }
 
 .portfolio-header-image {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -191,14 +191,14 @@ body {
 /* Large devices (laptops/desktops, 1000px and below) */
 @media only screen and (max-width: 1000px) {
   #main-content {
-    margin: 150px 75px;
+    margin: 25px 75px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
-    margin: 100px 50px;
+    margin: 25px 50px;
   }
 
   #portfolio-header {
