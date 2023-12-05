@@ -12,7 +12,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://kelk.ai',
+  url: 'https://isaac-chung.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -128,24 +128,6 @@ const config = {
             {
               label: 'GitHub',
               href: 'https://github.com/isaac-chung',
-            },
-          ],
-        },
-        // New Feeds section
-        {
-          title: 'Blog Feeds',
-          items: [
-            {
-              label: 'RSS',
-              href: 'https://kelk.ai/blog/rss.xml',
-            },
-            {
-              label: 'Atom',
-              href: 'https://kelk.ai/blog/atom.xml',
-            },
-            {
-              label: 'JSON',
-              href: 'https://kelk.ai/blog/feed.json',
             },
           ],
         },
