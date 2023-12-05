@@ -7,17 +7,18 @@ title: Isaac Chung
 
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
 
-### Hi!👋 I'm Isaac.
-I’m a Machine Learing Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
-
-I'm currently obsessed about turning research into scalable AI products using Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
-
+<br /><br />
 <center>
     [![linkedin](icons/linkedin.svg)](https://www.linkedin.com/in/isaac-chung/) &emsp;
     [![github](icons/github.svg)](https://github.com/isaac-chung) &emsp;
     [![strava](icons/strava.svg)](https://www.strava.com/athletes/17796761) &emsp;
     [![email](icons/mail.svg)](mailto:chungisaac1217@gmail.com)
 </center>
+
+### Hi!👋 I'm Isaac.
+I’m a Machine Learing Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
+
+I'm currently obsessed about turning research into scalable AI products using Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
 
 ## Talks, Conferences, and Papers
 * 2023 EstoniAI Meetup Vol. 5: Panel Discussion
