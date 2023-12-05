@@ -1,13 +1,14 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
-// import dashToEmdash from './src/remark/dash-to-emdash'; 
+// import type {Config} from '@docusaurus/types';
+// import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-const config: Config = {
-  title: 'Short Attention',
-  tagline: 'A blog about LLMs, AI, and random topics',
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+
+const config = {
+  title: 'Isaac Chung',
+  tagline: 'A site about Isaac\'s talk points when he runs out of things to talk about.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -41,8 +42,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           remarkPlugins: [
-            remarkMath,
-            require('./src/remark/dash-to-emdash')
+            remarkMath
           ],
           rehypePlugins: [rehypeKatex],
         },
@@ -52,7 +52,7 @@ const config: Config = {
             defaultReadingTime({content, options: {wordsPerMinute: 300}}),
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Short Attention Blog`,
+            copyright: `Copyright © ${new Date().getFullYear()} Isaac Chung`,
             createFeedItems: async (params) => {
               const {blogPosts, siteConfig, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({
@@ -64,8 +64,7 @@ const config: Config = {
             },
           },
           remarkPlugins: [
-            remarkMath,
-            require('./src/remark/dash-to-emdash')
+            remarkMath
           ],
           rehypePlugins: [rehypeKatex],
         },
@@ -76,7 +75,7 @@ const config: Config = {
           trackingID: 'G-PNHB98RZ0D',
           anonymizeIP: true,
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
   stylesheets: [
@@ -95,19 +94,13 @@ const config: Config = {
     navbar: {
       title: 'Projects Page',
       logo: {
-        alt: 'Short Attention Logo',
-        src: 'img/logo.svg',
+        alt: 'icon',
+        src: 'img/1311.png',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
-        {to: '/blog', label: 'Short Attention Blog', position: 'left'},
+        {to: '/blog', label: 'Isaac Chung', position: 'left'},
         {
-          href: 'https://github.com/iankelk',
+          href: 'https://github.com/isaac-chung',
           label: 'GitHub',
           position: 'right',
         },
@@ -116,21 +109,12 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [
-        //     {
-        //       label: 'Tutorial',
-        //       to: '/docs/intro',
-        //     },
-        //   ],
-        // },
        {
           title: 'Social',
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/kelkulus',
+              href: 'https://twitter.com/isaacchung1217',
             },
           ],
         },
@@ -167,13 +151,13 @@ const config: Config = {
         },
       ],
       // Existing copyright...
-      copyright: `Copyright © ${new Date().getFullYear()} Short Attention Blog`,
+      copyright: `Copyright © ${new Date().getFullYear()} Isaac Chung`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
-  } satisfies Preset.ThemeConfig,
+  },
 };
 
 export default config;
