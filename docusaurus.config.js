@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'Isaac Chung',
   tagline: 'A site about Isaac\'s talk points when he runs out of things to talk about.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/1311.png',
 
   // Set the production url of your site here
   url: 'https://isaac-chung.github.io',
