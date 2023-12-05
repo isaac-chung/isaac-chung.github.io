@@ -24,7 +24,7 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -90,7 +90,7 @@ const config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/short-attention-social-card.jpg',
+    image: 'img/1311.jpg',
     navbar: {
       title: 'Projects Page',
       logo: {
@@ -98,7 +98,7 @@ const config = {
         src: 'img/1311.png',
       },
       items: [
-        {to: '/blog', label: 'Isaac Chung', position: 'left'},
+        {to: '/', label: 'Isaac Chung', position: 'left'},
         {
           href: 'https://github.com/isaac-chung',
           label: 'GitHub',
@@ -123,7 +123,7 @@ const config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/',
             },
             {
               label: 'GitHub',
