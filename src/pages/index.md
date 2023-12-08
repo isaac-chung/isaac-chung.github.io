@@ -21,7 +21,7 @@ I’m a Machine Learing Engineer. I work remotely in EMEA, currently based in Ta
 I'm currently obsessed about turning research into scalable AI products using Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
 
 ## Talks, Conferences, and Papers
-* 2023 TD Lab Live AI Talk (600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf) [recording]()
+* 2023 TD Lab Live AI Talk (600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
 * 2023 EstoniAI Meetup Vol. 5: Panel Discussion on recap AI developments of 2023 and 2024 trends
 * Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
 * 2022 ECIR Industry Day: [Scaling Cross-Domain Content-Based Image Retrieval for E-commerce Snap and Search Application](https://arxiv.org/abs/2204.11593). Talk not recorded.
