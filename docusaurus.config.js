@@ -92,13 +92,13 @@ const config = {
     // Replace with your project's social card
     image: 'img/1311.jpg',
     navbar: {
-      title: 'Projects Page',
+      title: 'Isaac Chung',
       logo: {
         alt: 'icon',
         src: 'img/1311.png',
       },
       items: [
-        {to: '/', label: 'Isaac Chung', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/isaac-chung',
           label: 'GitHub',
@@ -123,7 +123,7 @@ const config = {
           items: [
             {
               label: 'Blog',
-              to: '/',
+              to: '/blog',
             },
             {
               label: 'GitHub',
