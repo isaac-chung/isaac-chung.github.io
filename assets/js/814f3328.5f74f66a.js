@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[535],{5641:l=>{l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What is Ollama? A shallow dive into running LLMs locally","permalink":"/blog/what-is-ollama","unlisted":false}]}')}}]);
