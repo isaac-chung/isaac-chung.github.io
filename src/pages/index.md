@@ -3,8 +3,6 @@ layout: default
 title: Isaac Chung
 ---
 
-## About Me
-
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
 
 <br /><br />
@@ -15,21 +13,24 @@ title: Isaac Chung
     [![email](icons/mail.svg)](mailto:chungisaac1217@gmail.com)
 </center>
 
-### Hi!👋 I'm Isaac.
+## Hi!👋 I'm Isaac.
 I’m a Machine Learing Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
 
 I'm currently obsessed about turning research into scalable AI products using Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
 
 ## Talks, Conferences, and Papers
-* 2023 TD Lab Live AI Talk (600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
-* 2023 EstoniAI Meetup Vol. 5: Panel Discussion on recap AI developments of 2023 and 2024 trends
+* 2023 TD Lab Live AI Talk (Remote | 600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
+* 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on recap AI developments of 2023 and 2024 trends
 * Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
-* 2022 ECIR Industry Day: [Scaling Cross-Domain Content-Based Image Retrieval for E-commerce Snap and Search Application](https://arxiv.org/abs/2204.11593). Talk not recorded.
-* 2021 Clarifai Perceive Conference: [Automating Data Labeling for Deep Learning | AI-Automated Data Labeling](https://www.youtube.com/watch?v=8drVLIaI_iA)
+* 2022 ECIR Industry Day (Stavanger, Norway | 100+ attendance): [Scaling Cross-Domain Content-Based Image Retrieval for E-commerce Snap and Search Application](https://arxiv.org/abs/2204.11593). Talk not recorded.
+* 2021 Clarifai Perceive Conference (Remote): [Automating Data Labeling for Deep Learning | AI-Automated Data Labeling](https://www.youtube.com/watch?v=8drVLIaI_iA)
 
 ## Projects
 * Strava Kudos Bot: https://github.com/isaac-chung/strava-kudos
-* Open source contributions - [transformers](https://github.com/huggingface/transformers), [llama-index](https://github.com/run-llama/llama_index), [auto-sklearn](https://github.com/automl/auto-sklearn)
+* Open source contributions, such as 
+  - [transformers](https://github.com/huggingface/transformers)
+  - [llama-index](https://github.com/run-llama/llama_index)
+  - [auto-sklearn](https://github.com/automl/auto-sklearn)
 
 ## Blogs
 I have written a few [blogs for Clarifai](https://www.clarifai.com/blog). Here are a few recent examples:
