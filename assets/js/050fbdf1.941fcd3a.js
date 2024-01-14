@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[6912],{2018:a=>{a.exports=JSON.parse('{"label":"quantization","permalink":"/blog/tags/quantization","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

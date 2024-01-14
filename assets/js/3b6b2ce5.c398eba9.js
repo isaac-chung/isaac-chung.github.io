@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[5795],{1579:l=>{l.exports=JSON.parse('{"label":"mixtral","permalink":"/blog/tags/mixtral","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
