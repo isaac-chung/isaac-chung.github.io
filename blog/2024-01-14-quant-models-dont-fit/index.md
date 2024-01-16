@@ -7,7 +7,7 @@ image: ./big-apples.png
 ---
 
 import Figure from '@site/src/components/figure';
-import bigApples from './big-apples.png';
+import bigApples from './big-apples.jpg';
 
 
 A key ingredient to running LLMs locally (read: without high-end GPUs, as in multiple) is quantization. What do you do when the 4-bit quantized model is still too big for your machine? That's what happened to me when I was trying to run [Mixtral-8x7B with Ollama](https://ollama.ai/library/mixtral) (check out this [previous blog post on what Ollama is](/blog/what-is-ollama)). The model requires 26GB of RAM while my laptop only has 16GB. I'll try to walk through the workaround a _bit_ at a time (pun intended).
