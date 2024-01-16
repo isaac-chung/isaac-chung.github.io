@@ -3,7 +3,7 @@ slug: quantized-models-dont-fit
 title: When Quantized Models Still Don't Fit
 authors: [ichung]
 tags: [quantization, mixed, AI, LLM, ML, chatbot, mixtral]
-image: ./big-apples.png
+image: ./big-apples.jpg
 ---
 
 import Figure from '@site/src/components/figure';
