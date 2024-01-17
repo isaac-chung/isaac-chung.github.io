@@ -53,7 +53,7 @@ ollama run llama2
 ```
 
 In addition to chatting with text prompts, Ollama also supports:
-- [multimodal inputs](https://github.com/jmorganca/ollama?tab=readme-ov-file#multimodal-models): e.g. asking questions about an iamge
+- [multimodal inputs](https://github.com/jmorganca/ollama?tab=readme-ov-file#multimodal-models): e.g. asking questions about an image
 - [passing an argument within a prompt](https://github.com/jmorganca/ollama?tab=readme-ov-file#pass-in-prompt-as-arguments): e.g. summarize a README page
 - [serving as a REST API](https://github.com/jmorganca/ollama?tab=readme-ov-file#rest-api): e.g. chat with the model using python scripts
 - [running as a docker image](https://ollama.ai/blog/ollama-is-now-available-as-an-official-docker-image): e.g. Deploy Ollama with Kubernetes 
