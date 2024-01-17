@@ -72,7 +72,7 @@ const config = {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          trackingID: 'G-PNHB98RZ0D',
+          trackingID: 'G-D4GPBWLTG6',
           anonymizeIP: true,
         },
       },
