@@ -14,9 +14,9 @@ title: Isaac Chung
 </center>
 
 ## Hi!👋 I'm Isaac.
-I’m a Machine Learing Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
+I’m a Machine Learning Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
 
-I'm currently leading applied research efforts for our EMEA team to scale AI for production loads on a Generative AI platform. My team has been solving search/ranking, retrieval and multimodal problems. Previously, I was leading the effort in developing custom ML solutions for enterprise customers for visual search and multimodal use cases. Our stack includes Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
+I'm currently leading applied research efforts for our EMEA team to scale AI for production loads on a Generative AI platform. My team has been solving search/ranking, retrieval and multi-modal problems. Previously, I was leading the effort in developing custom ML solutions for enterprise customers for visual search and multi-modal use cases. Our stack includes Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
 
 ## Talks, Conferences, and Papers
 * 2023 TD Lab Live AI Talk (Remote | 600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
