@@ -53,7 +53,7 @@ ollama run llama2
 ```
 
 In addition to chatting with text prompts, Ollama also supports:
-- [multimodal inputs](https://github.com/jmorganca/ollama?tab=readme-ov-file#multimodal-models): e.g. asking questions about an image
+- [multi-modal inputs](https://github.com/jmorganca/ollama?tab=readme-ov-file#multimodal-models): e.g. asking questions about an image
 - [passing an argument within a prompt](https://github.com/jmorganca/ollama?tab=readme-ov-file#pass-in-prompt-as-arguments): e.g. summarize a README page
 - [serving as a REST API](https://github.com/jmorganca/ollama?tab=readme-ov-file#rest-api): e.g. chat with the model using python scripts
 - [running as a docker image](https://ollama.ai/blog/ollama-is-now-available-as-an-official-docker-image): e.g. Deploy Ollama with Kubernetes 
@@ -62,7 +62,7 @@ The [official Github repo README page](https://github.com/jmorganca/ollama) has 
 
 ## Some notes
 After using Ollama for a weekend, I have noticed the following that may not be obvious at first glance:
-1. By hitting the `run` command, you start a chat session. This session will live until you exit from it or when you terminate process. Interestingly, chat state was not managed at the beginning, which means that you'd run into issues where [the model immediately forgets about the context right after a response](https://github.com/jmorganca/ollama/issues/8). Now, you can keep chatting and the model remembers what you entered as long as it fits within its context window. Once the context window is exceeded, Ollama will truncate the input from the beginngin until it fits the context window again [while keeping the system instructions](https://github.com/jmorganca/ollama/pull/306). 
+1. By hitting the `run` command, you start a chat session. This session will live until you exit from it or when you terminate process. Interestingly, chat state was not managed at the beginning, which means that you'd run into issues where [the model immediately forgets about the context right after a response](https://github.com/jmorganca/ollama/issues/8). Now, you can keep chatting and the model remembers what you entered as long as it fits within its context window. Once the context window is exceeded, Ollama will truncate the input from the beginning until it fits the context window again [while keeping the system instructions](https://github.com/jmorganca/ollama/pull/306). 
 2. Ollama is based on [llama.cpp](https://github.com/ggerganov/llama.cpp), an implementation of the Llama architecture in plain C/C++ without dependencies using only CPU and RAM. 
 3. Ollama is quite docker-like, and for me it feels intuitive. You pull models then run them. The [Modelfile](https://github.com/jmorganca/ollama/blob/main/docs/modelfile.md), the "blueprint to create and share models with Ollama", is also quite dockerfile-like.
 
