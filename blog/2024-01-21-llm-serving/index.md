@@ -3,12 +3,14 @@ slug: llm-serving
 title: 'All about Timing: A quick look at metrics for LLM serving'
 authors: [ichung]
 tags: [metrics, serving, timing, AI, LLM]
+image: ./coach.jpg
 ---
 
 import Figure from '@site/src/components/figure';
+import coach from './coach.jpg';
 
 
-Production services in engineering are often evaluated using metrics like Requests Per Second (RPS) and latency. In computer vision systems, we often use Frames Per Second (FPS) as the main model throughput metric as many of our use cases involve near-real-time detection and tracking deployed in small devices. Does serving LLMs have something similar? Certainly. A recent conversation with our team (after they read my [Ollama blog](/blog/what-is-ollama)) got me thinking about additional metrics that we could be tracking. 
+Production services in engineering are often evaluated using metrics like Requests Per Second (RPS), uptime, and latency. In computer vision systems, Frames Per Second (FPS) is often used as the main model throughput metric for use cases that involve near-real-time detection and tracking. Does serving LLMs have something similar? Certainly. A recent conversation with my team (after they read my [Ollama blog](/blog/what-is-ollama)) got me thinking about additional metrics that we could be tracking. 
 
 :::tip[Key questions I'll address are:]
 
@@ -19,6 +21,12 @@ Production services in engineering are often evaluated using metrics like Reques
 :::
 
 <!-- truncate -->
+
+<Figure
+  image={coach}
+  alt="A baseball coach blowing a whistle while holding a stopwatch."
+  caption="Image by OpenAI DALL-E 3."
+/>
 
 ## What metrics does Ollama provide?
 To see timings for each response, add the `--verbose` flag after the run command. e.g. `ollama run llama2 --verbose`. Here is an example output:
@@ -45,7 +53,7 @@ total duration:       58.502942674s
         eval rate:            4.89 tokens/s
 ```
 
-Total duration can be seen as latency, i.e. the overall time from receiving a request to returning a response to the user. This metric often includes all of the overhead in addition to the time a model needs to generate a response, e.g. model load time. Here, the system would be considered to achieve 4.89 "(output) tokens per second" by looking at only the eval rate. For comparison, [5 tokens/second is roughly as fast as someone can read](https://bionic-gpt.com/blog/llm-hardware/).
+Total duration can be seen as latency, i.e. the overall time from receiving a request to returning a response to the user. This metric often includes all of the overhead in addition to the time a model needs to generate a response, e.g. model load time. Here, the system would be considered to achieve 4.89 "(output) tokens per second" by looking at only the eval rate. For comparison, [7-10 tokens/second is thought to be acceptable for general use](https://www.reddit.com/r/LocalLLaMA/comments/162pgx9/what_do_yall_consider_acceptable_tokens_per/).
 
 
 ## Can't I just use tokens per second?
@@ -61,7 +69,7 @@ LLMs are likely power a bigger system, e.g. a chat service. A common metrics to 
 
 Another way to represent tokens per second is its inverse: **Time Per Output Token (TPOT)**, the time to generate one output token for each request. This metric can be used to perceive the "speed" of the model. From the example above, the TPOT is 200ms per token.
 
-
+Overall, it's important to keep the goal of the system in mind. If the only goal is to fit a quantized model into memory of a laptop, then there isn't much of a tradeoff to do as TPOT will likely suffer. 
 
 ## Further Reading
 If you want some background on how LLMs generate text or deeper dives on LLM serving, here are some extra resources:
