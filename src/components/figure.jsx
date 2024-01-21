@@ -1,15 +1,41 @@
-// src/components/Figure.jsx
+// src/components/figure.jsx
 
-import React from "react";
+// Captioned image with support for newline "\n" in caption, and PhotoSwipe viewing upon click
 
-const Figure = ({ image, alt, caption }) => {
-  // Split the caption text by newline characters and render with <br /> tags
+import React, { useEffect, useState } from 'react';
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+import 'photoswipe/style.css';
+
+export default function Figure({ image, alt, caption }) {
+  const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
+
   const captionContent = caption.split('\\n').map((line, index, array) => (
     <React.Fragment key={index}>
       {line}
       {index < array.length - 1 && <br />}
     </React.Fragment>
   ));
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
+    };
+    img.src = image;
+
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: '#figure-gallery',
+      children: 'a',
+      // Load PhotoSwipe upon click on image
+      pswpModule: () => import('photoswipe'),
+      // Other PhotoSwipe options...
+    });
+    lightbox.init();
+
+    return () => {
+      lightbox.destroy();
+    };
+  }, [image]);
 
   return (
     <figure style={{
@@ -19,8 +45,10 @@ const Figure = ({ image, alt, caption }) => {
       marginBottom: 20,
       borderRadius: "15px",
       textAlign: "right",
-    }}>
-      <img src={image} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
+    }} id="figure-gallery">
+      <a href={image} data-pswp-width={imageSize.width} data-pswp-height={imageSize.height}>
+        <img src={image} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
       <hr style={{ margin: "5px 0", backgroundColor: "rgba(0, 0, 0, .2)" }} />
       <figcaption style={{
         marginTop: "0.5em",
@@ -33,6 +61,4 @@ const Figure = ({ image, alt, caption }) => {
       </figcaption>
     </figure>
   );
-};
-
-export default Figure;
+}
