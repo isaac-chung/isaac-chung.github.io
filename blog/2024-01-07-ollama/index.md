@@ -4,6 +4,7 @@ title: What is Ollama? A shallow dive into running LLMs locally
 authors: [ichung]
 tags: [ollama, llama, chat, AI, LLM, ML, chatbot, local]
 image: ./tiny-llama.png
+enableComments: true
 ---
 
 import Figure from '@site/src/components/figure';
