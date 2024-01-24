@@ -19,6 +19,7 @@ I’m a Machine Learning Engineer. I work remotely in EMEA, currently based in T
 I'm currently leading applied research efforts for our EMEA team to scale AI for production loads on a Generative AI platform. My team has been solving search/ranking, retrieval and multi-modal problems. Previously, I was leading the effort in developing custom ML solutions for enterprise customers for visual search and multi-modal use cases. Our stack includes Python, Docker, Kubernetes, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
 
 ## Talks, Conferences, and Papers
+* \[Upcoming\] 2024 PyCon Lithuania: [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW)
 * 2023 TD Lab Live AI Talk (Remote | 600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
 * 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on recap AI developments of 2023 and 2024 trends
 * Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
