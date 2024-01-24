@@ -4,6 +4,7 @@ title: 'All about Timing: A quick look at metrics for LLM serving'
 authors: [ichung]
 tags: [metrics, serving, timing, AI, LLM]
 image: ./coach.jpg
+enableComments: true
 ---
 
 import Figure from '@site/src/components/figure';
