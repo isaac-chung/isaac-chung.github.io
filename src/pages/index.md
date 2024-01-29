@@ -20,7 +20,8 @@ I'm currently leading applied research efforts for our EMEA team to scale AI for
 
 ## Talks, Conferences, and Papers
 * \[Upcoming\] 2024 PyCon Lithuania: [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW)
-* 2023 TD Lab Live AI Talk (Remote | 600+ attendance): Beyond Llama2: Future Trends and Challenges with LLMs [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
+* \[Upcoming\] 2024 PyCon Lithuania: [Transcend the Knowledge Barriers in RAG: Setup, Chat State, and More](https://pycon.lt/2024/talks/HFXHRV)
+* 2023 TD Lab Live AI Talk (Remote): [Beyond Llama2: Future Trends and Challenges with LLMs](https://youtu.be/Su3f31HQ7eU) | [slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
 * 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on recap AI developments of 2023 and 2024 trends
 * Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
 * 2022 ECIR Industry Day (Stavanger, Norway | 100+ attendance): [Scaling Cross-Domain Content-Based Image Retrieval for E-commerce Snap and Search Application](https://arxiv.org/abs/2204.11593). Talk not recorded.
