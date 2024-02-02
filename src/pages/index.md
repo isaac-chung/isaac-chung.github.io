@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Isaac Chung
+description: ML Engineer currently leading applied research efforts in EMEA.
 ---
 
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
