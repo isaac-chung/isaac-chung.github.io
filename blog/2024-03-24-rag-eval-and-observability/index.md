@@ -8,7 +8,7 @@ enableComments: true
 
 import Figure from '@site/src/components/figure';
 
-We know that building a Retrieval Augmented Generation (RAG) proof of concept is easy, but making it production-ready can be hard. There are no shortage of tips and tricks out there for us to try, but at the end of the day, it all depends on our data and our application. Scaling up to handle more data and users, smooth error/exception handling, and getting it to play nice with other systems are some of the main challenges to tackle. Putting RAG in production is not that different from any other production systems. It is important to understand each component under the hood and be able to evaluate the pipeline with clear metrics. 
+We know that building a Retrieval Augmented Generation (RAG) proof of concept is easy, but making it production-ready can be hard. There are no shortage of tips and tricks out there for us to try, but at the end of the day, it all depends on our data and our application. Transitioning RAG into production follows similar principles to other production systems. Scaling up to handle more data and users, smooth error/exception handling, and getting it to play nice with other systems are some of the main challenges to tackle. How can we really know if our RAG system is working well? and how well? To find out, we should take a look at each component under the hood and be able to evaluate the pipeline with clear metrics. 
 
 :::tip[Key questions I'll address are:]
 
@@ -32,7 +32,7 @@ This could be as simple as logging inputs and outputs of each component (e.g. si
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix): Built on top of the OpenInference tracing standard, and uses it to trace, export, and collect critical information about your LLM Application in the form of "spans". It also supports several RAG-related analyses and visualizations.
 
 ## How to evaluate RAG systems?
-Just like any system, it is important to understand how well it is performing and how much improvement has been achieved over the baseline. This doesn’t just involve measuring how fast and how much it costs, but also how good the outputs are. We could take a look at RAG-specific evaluation methods. Per-component evaluations, which are kind of like unit tests, can be done on the retrieval stage and the generation stage separately. 
+Just like any system, it is important to understand how well the RAG system is performing and how much improvement has been achieved over the baseline. This doesn’t just involve measuring how fast and how much it costs, but also how good the outputs are. We could take a look at RAG-specific evaluation methods. Per-component evaluations, like unit tests, can be done on the retrieval stage and the generation stage separately. 
 
 For retrieval, the goal is to find out given the configuration how well can the system retrieve relevant results? Here you would need a golden set of queries and ground truth of relevant documents (or their IDs).  You could use IR metrics like nDCG or Mean Reciprocal Rank (MRR), but for RAG it’s more meaningful to understand 1) the signal to noise ratio of the retrieved context (context precision) and 2) how well it can retrieve all the relevant information required to answer the question (context recall). 
 
@@ -45,5 +45,5 @@ Some open source RAG evaluation tools like [Ragas](https://github.com/explodingg
 Fight the urge of treating the RAG system as a black box. Use a structured approach to evaluate your RAG system in terms of performance and other requirements like latency by adding observability and using evaluation tools. 
 
 ## Further Reading
-- Catch this talk on ["Transcend the Knowledge Barriers in RAG"](https://pycon.lt/2024/talks/HFXHRV) at PyCon Lithuania
+- Catch this talk on ["Transcend the Knowledge Barriers in RAG"](https://pycon.lt/2024/talks/HFXHRV) at PyCon Lithuania to understand how each RAG component works under the hood.
 - [12 RAG Pain points](https://towardsdatascience.com/12-rag-pain-points-and-proposed-solutions-43709939a28c)
