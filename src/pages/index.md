@@ -31,6 +31,7 @@ I'm currently leading applied research efforts for our EMEA team to scale AI for
 ## Projects
 * Strava Kudos Bot: https://github.com/isaac-chung/strava-kudos
 * Open source contributions, such as 
+  - [haystack](https://github.com/deepset-ai/haystack)
   - [transformers](https://github.com/huggingface/transformers)
   - [llama-index](https://github.com/run-llama/llama_index)
   - [auto-sklearn](https://github.com/automl/auto-sklearn)
