@@ -3,10 +3,12 @@ slug: rag-eval-and-observability
 title: How to really know if your RAG system is working well.
 authors: [ichung]
 tags: [RAG, LLM, Evaluation, Tracing, Logging, Observability]
+image: ./books-and-robot.png
 enableComments: true
 ---
 
 import Figure from '@site/src/components/figure';
+import books from './books-and-robot.png';
 
 We know that building a Retrieval Augmented Generation (RAG) proof of concept is easy, but making it production-ready can be hard. There are no shortage of tips and tricks out there for us to try, but at the end of the day, it all depends on our data and our application. Transitioning RAG into production follows similar principles to other production systems. Scaling up to handle more data and users, smooth error/exception handling, and getting it to play nice with other systems are some of the main challenges to tackle. How can we really know if our RAG system is working well? and how well? To find out, we should take a look at each component under the hood and be able to evaluate the pipeline with clear metrics. 
 
@@ -18,6 +20,12 @@ We know that building a Retrieval Augmented Generation (RAG) proof of concept is
 :::
 
 <!-- truncate -->
+
+<Figure
+  image={books}
+  alt="A robot sitting on a large pile of books."
+  caption="Image by Stable Diffusion XL."
+/>
 
 ## How to look under the hood in a RAG system?
 Once the components are set up in the RAG system, it is tempting to spot-check it for performance, and try out some _advanced techniques_ with the promise of performance improvements. However, this isn't the most reliable nor structural approach to debugging and improving RAG. The first thing we should do after getting our first end-to-end RAG response is adding observability. This greatly helps us not only during the transition of our RAG system from POC to production but also in its post-launch maintenance phase.
