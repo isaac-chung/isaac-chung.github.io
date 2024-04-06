@@ -15,9 +15,11 @@ description: ML Engineer currently leading applied research efforts in EMEA.
 </center>
 
 ## Hi!👋 I'm Isaac.
-I’m a Machine Learning Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
+I’m a Machine Learning / Research Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
 
-I help build and maintain multi-modal retrieval systems on the [Clarifai](https://www.clarifai.com/) AI platform. These days I’m working on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I was leading the effort in developing custom ML solutions for enterprise customers for visual search and multi-modal AI use cases. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. My background in Aerospace Engineering and Machine Learning research. On a normal day, you'll likely find me sipping coffee or training for my next triathlon.
+I help build and maintain multi-modal retrieval systems on the [Clarifai](https://www.clarifai.com/) AI platform. These days I’m working on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search and multi-modal AI use cases. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+
+My background is in Aerospace Engineering and Machine Learning and I've obtained undergraduate and graduate degrees from the University of Toronto. 
 
 ## Talks, Conferences, and Papers
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
