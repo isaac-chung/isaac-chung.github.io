@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Isaac Chung
-description: ML Engineer currently leading applied research efforts in EMEA.
+description: ML Engineer currently leading applied AI research and engineering in Europe.
+keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative AI]
 ---
 
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
@@ -15,11 +16,11 @@ description: ML Engineer currently leading applied research efforts in EMEA.
 </center>
 
 ## Hi!👋 I'm Isaac.
-I’m a Machine Learning / Research Engineer. I work remotely in EMEA, currently based in Tallinn, Estonia.
+I am currently a Senior Research Engineer at Clarifai, where I work on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python and ML conferences in Europe. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
-I help build and maintain multi-modal retrieval systems on the [Clarifai](https://www.clarifai.com/) AI platform. These days I’m working on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search and multi-modal AI use cases. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+My background is in Aerospace Engineering and Machine Learning and I hold undergraduate and graduate degrees from the University of Toronto. 
 
-My background is in Aerospace Engineering and Machine Learning and I've obtained undergraduate and graduate degrees from the University of Toronto. 
+I work remotely in Europe, currently based in Tallinn, Estonia.
 
 ## Talks, Conferences, and Papers
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
