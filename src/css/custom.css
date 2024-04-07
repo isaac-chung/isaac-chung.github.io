@@ -4,6 +4,13 @@
  * work well for content-centric websites.
  */
 
+ .icon-link:hover img {
+  cursor: pointer;
+  stroke-width: 5;
+  margin: 0;
+  transform: rotate(15deg);
+}
+
 /* You can override the default Infima variables here. */
 :root {
     --ifm-color-primary: #2e8555;

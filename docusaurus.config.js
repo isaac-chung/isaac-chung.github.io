@@ -99,11 +99,6 @@ const config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/isaac-chung',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -115,6 +110,10 @@ const config = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/isaacchung1217',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/isaac-chung/',
             },
           ],
         },
