@@ -9,22 +9,22 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 
 <br /><br />
 <center>
-    [![linkedin](icons/linkedin.svg)](https://www.linkedin.com/in/isaac-chung/) &emsp;
-    [![github](icons/github.svg)](https://github.com/isaac-chung) &emsp;
-    [![strava](icons/strava.svg)](https://www.strava.com/athletes/17796761) &emsp;
-    [![email](icons/mail.svg)](mailto:chungisaac1217@gmail.com)
+  <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/isaac-chung/"><img src="icons/linkedin.svg"/></a>
+  <a class="icon-link" target="_blank" href="https://github.com/isaac-chung"><img src="icons/github.svg"/></a>
+  <a class="icon-link" target="_blank" href="https://www.strava.com/athletes/17796761"><img src="icons/strava.svg"/></a>
+  <a class="icon-link" target="_blank" href="mailto:chungisaac1217@gmail.com"><img src="icons/mail.svg"/></a>
 </center>
 
 ## Hi!👋 I'm Isaac.
-I am currently a Senior Research Engineer at Clarifai, where I work on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python and ML conferences in Europe. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+I am currently a Senior Research Engineer at [Clarifai](https://www.clarifai.com/), where I work on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python and ML conferences in Europe. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
-My background is in Aerospace Engineering and Machine Learning and I hold undergraduate and graduate degrees from the University of Toronto. 
+My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
 I work remotely in Europe, currently based in Tallinn, Estonia.
 
 ## Talks, Conferences, and Papers
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
-* 2024 PyCon LT (Vilnius, Lithuania): [Transcend the Knowledge Barriers in RAG: Setup, Chat State, and More](https://pycon.lt/2024/talks/HFXHRV) | [Slides](https://drive.google.com/file/d/1WMTYLg-doX9DGfDDO53RFGRC_uMFB5_I/view?usp=sharing)
+* 2024 PyCon LT (Vilnius, Lithuania): [Transcend the Knowledge Barriers in RAG](https://pycon.lt/2024/talks/HFXHRV) | [Slides](https://drive.google.com/file/d/1WMTYLg-doX9DGfDDO53RFGRC_uMFB5_I/view?usp=sharing)
 * 2023 TD Lab Live AI Talk (Remote): Beyond Llama2: Future Trends and Challenges with LLMs | [Video](https://youtu.be/Su3f31HQ7eU) | [Slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
 * 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on Recap AI developments and future trends
 * 2023 Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
