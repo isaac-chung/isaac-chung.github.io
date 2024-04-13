@@ -9,7 +9,7 @@
     <icon>https://isaac-chung.github.io/img/1311.png</icon>
     <rights>Copyright © 2024 Isaac Chung</rights>
     <entry>
-        <title type="html"><![CDATA[Serving Concurrent Requests with Quantized Models]]></title>
+        <title type="html"><![CDATA[Serving Concurrent Requests with Quantized LLMs]]></title>
         <id>https://isaac-chung.github.io/blog/concurrent-requests</id>
         <link href="https://isaac-chung.github.io/blog/concurrent-requests"/>
         <updated>2024-04-13T00:00:00.000Z</updated>
