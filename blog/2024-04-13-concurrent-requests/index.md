@@ -1,6 +1,6 @@
 ---
 slug: concurrent-requests
-title: Serving Concurrent Requests with Quantized Models 
+title: Serving Concurrent Requests with Quantized LLMs 
 authors: [ichung]
 tags: [LLM, concurrent, requests, parallel, multi-user]
 image: ./octopus.png
