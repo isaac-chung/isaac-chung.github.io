@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[9528],{9145:e=>{e.exports=JSON.parse('{"label":"concurrent","permalink":"/blog/tags/concurrent","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -4,11 +4,57 @@
         <title>Isaac Chung Blog</title>
         <link>https://isaac-chung.github.io/blog</link>
         <description>Isaac Chung Blog</description>
-        <lastBuildDate>Sun, 24 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Isaac Chung</copyright>
+        <item>
+            <title><![CDATA[Serving Concurrent Requests with Quantized Models]]></title>
+            <link>https://isaac-chung.github.io/blog/concurrent-requests</link>
+            <guid>https://isaac-chung.github.io/blog/concurrent-requests</guid>
+            <pubDate>Sat, 13 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Being able to serve concurrent LLM generation requests are crucial to production LLM applications that have multiple users. I recently gave a talk at PyCon Lithuania on serving quantized LLMs with llama-cpp-python, an open source python library that helps serve quantized models in the GGUF format. At the end, a question came from the audience about supporting multiple users and concurrent requests. I decided to take a deeper look into why the library wasn't able to support that at the time.]]></description>
+            <content:encoded><![CDATA[<p>Being able to serve concurrent LLM generation requests are crucial to production LLM applications that have multiple users. <a href="https://pycon.lt/2024/talks/DHBLXW" target="_blank" rel="noopener noreferrer">I recently gave a talk at PyCon Lithuania</a> on serving quantized LLMs with <a href="https://github.com/abetlen/llama-cpp-python" target="_blank" rel="noopener noreferrer">llama-cpp-python</a>, an open source python library that helps serve quantized models in the GGUF format. At the end, a question came from the audience about supporting multiple users and concurrent requests. I decided to take a deeper look into why the library wasn't able to support that at the time.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Key questions I'll address are:</div><div class="admonitionContent_BuS1"><ul>
+<li>What are the challenges of serving concurrent requests with LLMs?</li>
+<li>How to serve concurrent requests with quantized LLMs?</li>
+</ul></div></div>
+<figure style="border:1px dashed rgba(0, 0, 0, .1);padding:0;margin:0;margin-bottom:20px;border-radius:15px;text-align:right" id="figure-gallery"><a href="https://isaac-chung.github.io/assets/images/octopus-69454e9dcdc193dfb7a6f3ba4040312b.png" data-pswp-width="0" data-pswp-height="0"><img src="https://isaac-chung.github.io/assets/images/octopus-69454e9dcdc193dfb7a6f3ba4040312b.png" alt="New yorker style comic depicting a cute, friendly cartoon octopus with a baseball cap holding multiple tennis rackets. White background only." style="max-width:100%;height:auto"></a><hr style="margin:5px 0;background-color:rgba(0, 0, 0, .2)"><figcaption style="margin-top:0.5em;margin-bottom:0.5em;margin-right:1em;text-align:right;font-size:0.8em">Image by Dalle3.</figcaption></figure>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-the-challenges-of-serving-concurrent-requests-with-llms">What are the challenges of serving concurrent requests with LLMs?<a href="https://isaac-chung.github.io/blog/concurrent-requests#what-are-the-challenges-of-serving-concurrent-requests-with-llms" class="hash-link" aria-label="Direct link to What are the challenges of serving concurrent requests with LLMs?" title="Direct link to What are the challenges of serving concurrent requests with LLMs?">​</a></h2>
+<p>LLM inference involves generating tokens in an autoregressive manner. To avoid repeating calculations when generating future tokens, a KV cache is used.
+The KV cache size grows quickly with the number of requests. The <a href="https://arxiv.org/abs/2309.06180" target="_blank" rel="noopener noreferrer">vLLM paper</a> uses the 13B OPT model as an example:</p>
+<blockquote>
+<p>the KV cache of a single token demands 800 KB of space, calculated as 2 (key and value vectors) × 5120 (hidden state size) × 40 (number of layers) × 2 (bytes per FP16). Since OPT can generate sequences up to 2048 tokens, the memory required to store the KV cache of one request can be as much as 1.6 GB</p>
+</blockquote>
+<p>It's clear that this is a memory-bound process. In the context of serving requests, we can batch multiple incoming requests to improve compute utilization. Batching isn't trivial either. The main challenges includes:</p>
+<ol>
+<li>The requests may arrive at different times, and</li>
+<li>the requests may have very different input and output lengths.</li>
+</ol>
+<p>Batching requests naively may lead to huge delays from waiting for earlier requests to finish before starting the next batch, or waiting for the longest generation to finish. It would also lead to computation and memory wastage from padding inputs/outputs due to their difference in lengths.</p>
+<p>Back to the question from the talk. At the time of writing, llama-cpp-python did not support batched requests. Moreover, concurrent requests would <a href="https://www.reddit.com/r/LocalLLaMA/comments/15kbbna/how_to_make_multiple_inference_requests_from_a/" target="_blank" rel="noopener noreferrer">lead to the server crashing</a>. This might be due to the locks being used to control access to shared resources, particularly the <code>llama_proxy</code> variable, which handles the model resources. This means that to serve parallel requests, multiple instances of the models may be needed, and this drastically increases the resources required for model serving.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-serve-concurrent-requests-with-quantized-llms">How to serve concurrent requests with quantized LLMs?<a href="https://isaac-chung.github.io/blog/concurrent-requests#how-to-serve-concurrent-requests-with-quantized-llms" class="hash-link" aria-label="Direct link to How to serve concurrent requests with quantized LLMs?" title="Direct link to How to serve concurrent requests with quantized LLMs?">​</a></h2>
+<p>Improvements have been introduced to make serving concurrent requests more efficient. These include and are not limited to:</p>
+<ol>
+<li><strong>Continuous Batching</strong>: It allows new requests to join the current batch in the next decoder cycle instead of waiting for the end of the current batch to finish. This improves throughput and compute utilization. The upstream <a href="https://github.com/ggerganov/llama.cpp/tree/master/examples/server" target="_blank" rel="noopener noreferrer">llama.cpp repo</a> has the capability to serve parallel requests with continuous batching. This, however, does not entirely solve the memory issue. We still need to reserve memory using the longest sequence in the batch.</li>
+<li><strong>Paged Attention</strong>: It divides up the KV cache into blocks that would contain keys and values for a fixed number of tokens. It eliminates external fragmentation (unusable gaps between allocated memory blocks in a GPU's memory) since all blocks have the same size. Also, it eases internal fragmentation by using relatively small blocks. An LLM serving engine that's built on top of Paged Attention is <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener noreferrer">vLLM</a>.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-vllm">What is vLLM?<a href="https://isaac-chung.github.io/blog/concurrent-requests#what-is-vllm" class="hash-link" aria-label="Direct link to What is vLLM?" title="Direct link to What is vLLM?">​</a></h2>
+<p>vLLM is a high-throughput and memory-efficient inference and serving engine for LLMs. vLLM supports serving quantized LLMs with concurrent requests with AWQ (4-bit) models, which boasts a 2.78x speed up on a single GPU according to <a href="https://lightning.ai/lightning-ai/studios/optimized-llm-inference-api-for-mistral-7b-using-vllm" target="_blank" rel="noopener noreferrer">a benchmark done by lightning.ai</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thoughts">Final Thoughts<a href="https://isaac-chung.github.io/blog/concurrent-requests#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts">​</a></h2>
+<p>Tools like llama-cpp-python and ExLlama2 may not have been designed to be <a href="https://github.com/turboderp/exllamav2/issues/95#issuecomment-2019991153" target="_blank" rel="noopener noreferrer">an efficient backend for large deployments</a>, but they are certainly worth a look for anyone who wants to deploy way smaller models on a budget. vLLM on the other hand seem to have that in mind from the beginning. It can even be used with the <a href="https://github.com/triton-inference-server/vllm_backend" target="_blank" rel="noopener noreferrer">triton inference server as a supported backend</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="further-reading">Further Reading<a href="https://isaac-chung.github.io/blog/concurrent-requests#further-reading" class="hash-link" aria-label="Direct link to Further Reading" title="Direct link to Further Reading">​</a></h2>
+<ul>
+<li>Check out <a href="https://www.youtube.com/channel/UCtAcpQcYerN8xxZJYTfWBMw/videos" target="_blank" rel="noopener noreferrer">this YouTube channel</a> for in-depth explanations about popular transformer/LLM architectures. It helped me get through some dense materials clearly, so thank you, Umar!</li>
+<li>This blog on <a href="https://www.run.ai/blog/serving-large-language-models" target="_blank" rel="noopener noreferrer">Serving LLMs by run.ai</a>.</li>
+</ul>]]></content:encoded>
+            <category>LLM</category>
+            <category>concurrent</category>
+            <category>requests</category>
+            <category>parallel</category>
+            <category>multi-user</category>
+        </item>
         <item>
             <title><![CDATA[How to really know if your RAG system is working well.]]></title>
             <link>https://isaac-chung.github.io/blog/rag-eval-and-observability</link>
