@@ -130,6 +130,23 @@ const config = {
             },
           ],
         },
+        {
+          title: 'Blog Feeds',
+          items: [
+            {
+              label: 'RSS',
+              href: 'https://isaac-chung.github.io/blog/rss.xml',
+            },
+            {
+              label: 'Atom',
+              href: 'https://isaac-chung.github.io/blog/atom.xml',
+            },
+            {
+              label: 'JSON',
+              href: 'https://isaac-chung.github.io/blog/feed.json',
+            },
+          ]
+        },
       ],
       // Existing copyright...
       copyright: `Copyright © ${new Date().getFullYear()} Isaac Chung`,
