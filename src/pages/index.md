@@ -40,7 +40,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia.
   - [auto-sklearn](https://github.com/automl/auto-sklearn)
 
 ## Blogs
-* I log [my learnings on GenAI/ML in a blog](/blog) and try to keep it within a 3-5min read
+* I log [my learnings on Generative AI/ML in a blog](/blog) and try to keep it within a 3-5min read
 * I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog). Here are a few recent examples:
   * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
   * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
