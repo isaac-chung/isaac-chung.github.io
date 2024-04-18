@@ -34,6 +34,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia.
 ## Projects
 * Strava Kudos Bot: https://github.com/isaac-chung/strava-kudos
 * Open source contributions, such as 
+  - [MTEB](https://github.com/embeddings-benchmark/mteb)
   - [haystack](https://github.com/deepset-ai/haystack)
   - [transformers](https://github.com/huggingface/transformers)
   - [llama-index](https://github.com/run-llama/llama_index)
