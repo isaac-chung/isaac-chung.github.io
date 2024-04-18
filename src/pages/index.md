@@ -23,7 +23,7 @@ My background is in Aerospace Engineering and Machine Learning and I hold underg
 I work remotely in Europe, currently based in Tallinn, Estonia.
 
 ## Talks, Conferences, and Papers
-* 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
+* 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Video](https://www.youtube.com/watch?v=jmjR7kMaAak) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
 * 2024 PyCon LT (Vilnius, Lithuania): [Transcend the Knowledge Barriers in RAG](https://pycon.lt/2024/talks/HFXHRV) | [Video](https://www.youtube.com/watch?v=KpXkFCUJhVo) | [Slides](https://drive.google.com/file/d/1WMTYLg-doX9DGfDDO53RFGRC_uMFB5_I/view?usp=sharing)
 * 2023 TD Lab Live AI Talk (Remote): Beyond Llama2: Future Trends and Challenges with LLMs | [Video](https://youtu.be/Su3f31HQ7eU) | [Slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
 * 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on Recap AI developments and future trends
