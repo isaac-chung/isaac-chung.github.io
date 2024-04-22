@@ -32,6 +32,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia.
 * 2021 Clarifai Perceive Conference (Remote): Automating Data Labeling for Deep Learning - AI-Automated Data Labeling | [Video](https://www.youtube.com/watch?v=8drVLIaI_iA)
 
 ## Projects
+* Organizer @ [PyData Tallinn](https://www.meetup.com/pydata-tallinn/)
 * Strava Kudos Bot: https://github.com/isaac-chung/strava-kudos
 * Open source contributions, such as 
   - [MTEB](https://github.com/embeddings-benchmark/mteb)
