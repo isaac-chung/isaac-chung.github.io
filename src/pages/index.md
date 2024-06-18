@@ -16,11 +16,13 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 </center>
 
 ## Hi!👋 I'm Isaac.
-I am currently a Senior Research Engineer at [Clarifai](https://www.clarifai.com/), where I work on improving our vector search capabilities and enabling new generative AI tech in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python,  ML conferences and meet ups in Europe. Our stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+My focus is on making AI systems scalable and maintainable. Currently I'm leading an effort in using Small Language Models for low resource on-prem RAG.
+
+At [Clarifai](https://www.clarifai.com/), I've helped build and maintain multimodal retrieval systems in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia.
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and do a bit of swim/bike/run racing.
 
 ## Talks, Conferences, and Papers
 * (Upcoming!) 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications
