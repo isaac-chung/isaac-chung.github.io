@@ -48,6 +48,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 ## Blogs
 * I log [my learnings on Generative AI/ML in a blog](/blog) and try to keep it within a 3-5min read
 * I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog). Here are a few recent examples:
+  * [Do LLMs Reign Supreme In Few-Shot NER? Part III](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-iii)
   * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
   * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
   * [Multi-modal Moderation](https://www.clarifai.com/blog/the-future-of-content-how-multimodal-moderation-is-changing-the-game)
