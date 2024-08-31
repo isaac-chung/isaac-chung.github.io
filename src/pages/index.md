@@ -26,7 +26,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 ## Talks, Conferences, and Papers
 * (Upcoming!) 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications
-* (Upcoming!) 2024 PyCon PL (Gliwice, Poland): Transcend the Knowledge Barriers in RAG
+* 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Video](https://www.youtube.com/watch?v=jmjR7kMaAak) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
 * 2024 PyCon LT (Vilnius, Lithuania): [Transcend the Knowledge Barriers in RAG](https://pycon.lt/2024/talks/HFXHRV) | [Video](https://www.youtube.com/watch?v=KpXkFCUJhVo) | [Slides](https://drive.google.com/file/d/1WMTYLg-doX9DGfDDO53RFGRC_uMFB5_I/view?usp=sharing)
 * 2023 TD Lab Live AI Talk (Remote): Beyond Llama2: Future Trends and Challenges with LLMs | [Video](https://youtu.be/Su3f31HQ7eU) | [Slides](pdf/TD_Lab_Live_Talk-Beyond_Llama2.pdf)
@@ -47,12 +47,18 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 ## Blogs
 * I log [my learnings on Generative AI/ML in a blog](/blog) and try to keep it within a 3-5min read
-* I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog). Here are a few recent examples:
-  * [Do LLMs Reign Supreme In Few-Shot NER? Part III](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-iii)
-  * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
-  * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
-  * [Multi-modal Moderation](https://www.clarifai.com/blog/the-future-of-content-how-multimodal-moderation-is-changing-the-game)
-  * [A Comprehensive Guide To Vector Search](https://www.clarifai.com/blog/finding-what-you-need-a-comprehensive-guide-to-vector-search)
+* I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog).
+  * <details>
+      <summary>Here are a few recent examples:</summary>
+
+      * [Supercharge your LLM via Retrieval Augmented Fine-tuning](https://www.clarifai.com/blog/supercharge-your-llm-via-retrieval-augmented-fine-tuning)
+      * [The Landscape of Multimodal Evaluation Benchmarks](https://www.clarifai.com/blog/the-landscape-of-multimodal-evaluation-benchmarks)
+      * [Do LLMs Reign Supreme In Few-Shot NER? Part III](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-iii)
+      * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
+      * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
+      * [Multi-modal Moderation](https://www.clarifai.com/blog/the-future-of-content-how-multimodal-moderation-is-changing-the-game)
+      * [A Comprehensive Guide To Vector Search](https://www.clarifai.com/blog/finding-what-you-need-a-comprehensive-guide-to-vector-search)
+    </details>
 
 
 ## Consulting
