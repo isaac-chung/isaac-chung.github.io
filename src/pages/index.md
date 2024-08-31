@@ -49,16 +49,16 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 * I log [my learnings on Generative AI/ML in a blog](/blog) and try to keep it within a 3-5min read
 * I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog).
   * <details>
-    <summary>Here are a few recent examples:</summary>
+      <summary>Here are a few recent examples:</summary>
 
-    * [Supercharge your LLM via Retrieval Augmented Fine-tuning](https://www.clarifai.com/blog/supercharge-your-llm-via-retrieval-augmented-fine-tuning)
-    * [The Landscape of Multimodal Evaluation Benchmarks](https://www.clarifai.com/blog/the-landscape-of-multimodal-evaluation-benchmarks)
-    * [Do LLMs Reign Supreme In Few-Shot NER? Part III](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-iii)
-    * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
-    * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
-    * [Multi-modal Moderation](https://www.clarifai.com/blog/the-future-of-content-how-multimodal-moderation-is-changing-the-game)
-    * [A Comprehensive Guide To Vector Search](https://www.clarifai.com/blog/finding-what-you-need-a-comprehensive-guide-to-vector-search)
-  </details>
+      * [Supercharge your LLM via Retrieval Augmented Fine-tuning](https://www.clarifai.com/blog/supercharge-your-llm-via-retrieval-augmented-fine-tuning)
+      * [The Landscape of Multimodal Evaluation Benchmarks](https://www.clarifai.com/blog/the-landscape-of-multimodal-evaluation-benchmarks)
+      * [Do LLMs Reign Supreme In Few-Shot NER? Part III](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-iii)
+      * [Do LLMs Reign Supreme In Few-Shot NER? Part II](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner-part-ii)
+      * [Do LLMs Reign Supreme In Few-Shot NER?](https://www.clarifai.com/blog/do-llms-reign-supreme-in-few-shot-ner)
+      * [Multi-modal Moderation](https://www.clarifai.com/blog/the-future-of-content-how-multimodal-moderation-is-changing-the-game)
+      * [A Comprehensive Guide To Vector Search](https://www.clarifai.com/blog/finding-what-you-need-a-comprehensive-guide-to-vector-search)
+    </details>
 
 
 ## Consulting
