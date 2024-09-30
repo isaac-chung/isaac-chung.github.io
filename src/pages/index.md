@@ -27,7 +27,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 ## Talks, Conferences, and Papers
 * (Upcoming!) 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/)
 * 2024 Preprint: [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648)
-* 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
+* 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [Slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
 * 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Video](https://www.youtube.com/watch?v=jmjR7kMaAak) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
 * 2024 PyCon LT (Vilnius, Lithuania): [Transcend the Knowledge Barriers in RAG](https://pycon.lt/2024/talks/HFXHRV) | [Video](https://www.youtube.com/watch?v=KpXkFCUJhVo) | [Slides](https://drive.google.com/file/d/1WMTYLg-doX9DGfDDO53RFGRC_uMFB5_I/view?usp=sharing)
@@ -35,7 +35,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 * 2023 EstoniAI Meetup Vol. 5 (Tallinn, Estonia): Panel Discussion on Recap AI developments and future trends
 * 2023 Preprint: [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110)
 * 2022 ECIR Industry Day (Stavanger, Norway): [Scaling Cross-Domain Content-Based Image Retrieval for E-commerce Snap and Search Application](https://arxiv.org/abs/2204.11593). Talk not recorded.
-* 2021 Clarifai Perceive Conference (Remote): Automating Data Labeling for Deep Learning - AI-Automated Data Labeling | [Video](https://www.youtube.com/watch?v=8drVLIaI_iA)
+* 2021 Clarifai Perceive Conference (Remote): Automating Data Labeling for Deep Learning - AI-Automated Data Labeling | [Video](https://www.youtube.com/watch?v=8drVLIaI_iA) | [Slides](https://drive.google.com/file/d/1uO4uEOofBz5aISdcE7dyPyII4wzSvkHw/view?usp=sharing)
 
 ## Projects
 * Organizer @ [PyData Tallinn](https://www.meetup.com/pydata-tallinn/)
