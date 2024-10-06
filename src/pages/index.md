@@ -16,9 +16,9 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 </center>
 
 ## Hi!👋 I'm Isaac.
-My focus is on making AI systems scalable and maintainable. Currently I'm leading an effort in using Small Language Models for low resource on-prem RAG.
+My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Researcher at [Wrike](https://www.wrike.com)'s Work Intelligence team.
 
-At [Clarifai](https://www.clarifai.com/), I've helped build and maintain multimodal retrieval systems in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+Previously at [Clarifai](https://www.clarifai.com/), I've helped build and maintain multimodal retrieval systems in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
