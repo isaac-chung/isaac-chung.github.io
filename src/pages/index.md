@@ -16,7 +16,7 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 </center>
 
 ## Hi!👋 I'm Isaac.
-My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Researcher at [Wrike](https://www.wrike.com)'s Work Intelligence team.
+My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Researcher at [Wrike](https://www.wrike.com)'s Machine Learning team.
 
 Previously at [Clarifai](https://www.clarifai.com/), I've helped build and maintain multimodal retrieval systems in production. Previously, I led custom enterprise solution development for visual search, built multi-modal retrieval systems, and helped maintain ML inference systems for LLMs and computer vision models. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
@@ -25,7 +25,7 @@ My background is in Aerospace Engineering and Machine Learning and I hold underg
 I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and do a bit of swim/bike/run racing.
 
 ## Talks, Conferences, and Papers
-* (Upcoming!) 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/)
+* 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
 * 2024 Preprint: [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648)
 * 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [Slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
 * 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
