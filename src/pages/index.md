@@ -22,7 +22,7 @@ Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise sol
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and do a bit of swim/bike/run racing.
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active.
 
 ## Talks, Conferences, and Papers
 * 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
