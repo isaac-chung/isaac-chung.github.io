@@ -25,7 +25,7 @@ My background is in Aerospace Engineering and Machine Learning and I hold underg
 I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active.
 
 ## Talks, Conferences, and Papers
-* 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
+* 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) [Video](https://youtu.be/K-KhenQ3Scw?si=NDuiYk3acztovUti) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
 * 2024 Preprint: [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648)
 * 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [Slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
 * 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
