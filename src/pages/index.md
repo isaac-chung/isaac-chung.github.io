@@ -49,6 +49,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 ## Blogs
 * I log [my learnings on Generative AI/ML in a blog](/blog) and try to keep it within a 3-5min read
+* [Neptune LLMOps Blog on building RAG systems](https://neptune.ai/blog/building-and-evaluating-rag-system-using-langchain-ragas-neptune)
 * I have also written a few [blogs for Clarifai](https://www.clarifai.com/blog).
   * <details>
       <summary>Here are a few recent examples:</summary>
