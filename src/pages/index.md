@@ -2,7 +2,7 @@
 layout: default
 title: Isaac Chung
 description: ML Engineer currently leading applied AI research and engineering in Europe.
-keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative AI]
+keywords: [Isaac Chung, AI, Research, ML, ML Scientist, Engineering, ML Engineer, Generative AI]
 ---
 
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
@@ -16,7 +16,7 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 </center>
 
 ## Hi!👋 I'm Isaac.
-My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Researcher at [Wrike](https://www.wrike.com)'s Machine Learning team.
+My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Scientist at [Zendesk QA (Klaus)](https://www.zendesk.com/service/quality-assurance/).
 
 Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise solution development for visual search and text moderation, built multi-modal retrieval systems, and led applied research in improving question-answering systems. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
