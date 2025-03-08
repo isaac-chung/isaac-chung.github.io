@@ -2,7 +2,7 @@
 layout: default
 title: Isaac Chung
 description: ML Engineer currently leading applied AI research and engineering in Europe.
-keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative AI]
+keywords: [Isaac Chung, AI, Research, ML, ML Scientist, Engineering, ML Engineer, Generative AI]
 ---
 
 <center><img src="img/profile-circle.png" width="300" height="300"/></center>
@@ -16,13 +16,15 @@ keywords: [Isaac Chung, AI, Research, ML, Engineering, ML Engineer, Generative A
 </center>
 
 ## Hi!👋 I'm Isaac.
-My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Researcher at [Wrike](https://www.wrike.com)'s Machine Learning team.
+My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Scientist at [Zendesk QA (Klaus)](https://www.zendesk.com/service/quality-assurance/).
 
 Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise solution development for visual search and text moderation, built multi-modal retrieval systems, and led applied research in improving question-answering systems. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active.
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
+
+
 
 ## Papers
 * Kenneth Enevoldsen, **Isaac Chung**, Imene Kerboua, Márton Kardos et al. [MMTEB: Massive Multilingual Text Embedding Benchmark](https://openreview.net/forum?id=zl3pfz4VCV). The Thirteenth International Conference on Learning Representation, 2025. 
