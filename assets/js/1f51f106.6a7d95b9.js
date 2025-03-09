@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[1610],{9765:e=>{e.exports=JSON.parse('{"label":"mmteb","permalink":"/blog/tags/mmteb","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
