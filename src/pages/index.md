@@ -22,9 +22,11 @@ Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise sol
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate (B.A.Sc in EngSci) and graduate (M.A.Sc) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
 
-
+
+
+
 
 ## Papers
 * Kenneth Enevoldsen, **Isaac Chung**, Imene Kerboua, Márton Kardos et al. [MMTEB: Massive Multilingual Text Embedding Benchmark](https://openreview.net/forum?id=zl3pfz4VCV). The Thirteenth International Conference on Learning Representation, 2025. 
@@ -32,7 +34,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 * Elizaveta Korotkova and **Isaac Chung**. [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110). arXiv preprint arXiv:2303.15110, 2023. 
 
 ## Talks and Conferences
-* 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) [Video](https://youtu.be/K-KhenQ3Scw?si=NDuiYk3acztovUti) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
+* 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/): [Video](https://youtu.be/K-KhenQ3Scw?si=NDuiYk3acztovUti) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
 * 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [Slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
 * 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
 * 2024 PyCon LT (Vilnius, Lithuania): [Speed up open source LLM-serving with llama-cpp-python](https://pycon.lt/2024/talks/DHBLXW) | [Video](https://www.youtube.com/watch?v=jmjR7kMaAak) | [Slides](https://drive.google.com/file/d/1obze3UXqRgNakPIadt-cvlzMwGjfVK-G/view?usp=sharing) | [Github](https://github.com/isaac-chung/llama-cpp-python-chat)
