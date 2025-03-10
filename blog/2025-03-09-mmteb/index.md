@@ -23,7 +23,7 @@ Embeddings power many AI applications we interact with — search engines, RAG s
 
 ## What is MMTEB?
 
-The [Massive Multilingual Text Embedding Benchmark (MMTEB)](https://arxiv.org/abs/2502.13595) is an extension to the existing Massive Text Embedding Benchmark [MTEB](https://arxiv.org/abs/2210.07316), a comprehensive evaluation framework for assessing the performance of text embedding models. MTEB was introduced in 2022 as a way to evaluate embeddings models in a single, unified benchmark. The [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) has since been a popular destination for many to gauge embedding model performance using the average score across all tasks. MMTEB takes this a step further by covering over 500 quality-controlled evaluation tasks across 250+ languages, making it the largest multilingual collection of evaluation tasks for embedding models to date.
+The [Massive Multilingual Text Embedding Benchmark (MMTEB)](https://arxiv.org/abs/2502.13595) is an extension to the existing Massive Text Embedding Benchmark ([MTEB](https://arxiv.org/abs/2210.07316)), a comprehensive evaluation framework for assessing the performance of text embedding models. MTEB was introduced in 2022 as a way to evaluate embeddings models in a single, unified benchmark. The [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard) has since been a popular destination for many to gauge embedding model performance using the average score across all tasks. MMTEB takes this a step further by covering over 500 quality-controlled evaluation tasks across 250+ languages, making it the largest multilingual collection of evaluation tasks for embedding models to date.
 
 <Figure
   image={lb}
@@ -39,15 +39,15 @@ MMTEB introduces a diverse set of challenging, novel tasks that test the capabil
 
 ## What are the key takeaways from MMTEB?
 
-**Performance Varies Widely Across Languages** – MMTEB highlights that models like `e5-large-v2` and `all-mpnet-base` perform well in English but see sharp performance drops in low-resource languages. Some models even fail completely on certain languages, revealing critical gaps in multilingual generalization.
+**Performance Varies Widely Across Languages** – MMTEB highlights that models like `all-MiniLM-L6` and `all-mpnet-base` perform well in English but see sharp performance drops in low-resource languages. Some models even fail completely on certain languages, revealing critical gaps in multilingual generalization.
 
 **Generalization is a Challenge** – MMTEB introduces new task types like long-document retrieval and instruction following, where many leading models struggle. E.g. embedding models trained primarily on short text often fail to retrieve relevant long documents, demonstrating their limited adaptability to new task formats.
 
 **Bigger Isn’t Always Better** – The `multilingual-e5-large-instruct` model outperforms Mistral-based models in several benchmarks like MTEB(Europe), despite the latter being a larger model. This suggests that _smaller, well-optimized multilingual models can generalize better across languages_ than larger models that are not explicitly fine-tuned for diverse multilingual tasks.
 
-The bottom line is that: as our world becomes more connected, ML systems should be expected to maintain performance when the language is no longer English. MMTEB aims to provide a way for anyone to evaluate embeddings on more diverse tasks from a wider range of languages, while limiting the compute resources required. 
+Here is the bottom line: As the world becomes more connected, ML systems must perform across languages, not just English. However, most languages are "left-behinds" with limited online presence and resources, creating a ["low-resource double bind"](https://aclanthology.org/2021.findings-emnlp.282/). To address this, MMTEB aims to make it easier to evaluate embeddings on diverse languages while minimizing computational resources, and help bridge the gap for low-resource communities, a challenge highlighted by [Ivan Vulic's ECIR 2022 keynote](https://sites.google.com/site/ivanvulic/).
 
-So what does it mean for you?
+## So what does it mean for you?
 
 _**For practitioners:**_ This shifts how we should think about embedding models. Instead of defaulting to the latest or most hyped model, it’s now possible to select embeddings based on real, task-specific performance. If you're building a semantic search system, MMTEB provides insights into which models excel at retrieval and reranking. If you’re working with multilingual data, you can see which embeddings actually handle cross-lingual retrieval. This kind of benchmarking isn’t just useful — it’s essential for making informed choices in production AI systems. 
 
@@ -64,10 +64,10 @@ To get started with MMTEB, you can install the `mteb` library using pip:
 pip install mteb
 ```
 
-Once installed, you can use either the command line or a Python script to do any of the following:
+Next, you can use the library to run your model against MMTEB's 500+ evaluation tasks. 
 
 **Benchmark Your Model**: 
-Run your embedding model against MMTEB’s 500+ evaluation tasks (and any predefined benchmarks) to measure its performance across different languages and domains. E.g. to run the new English benchmark (which uses 2% of the original number of documents while maintaining rankings)
+For example, you can run the new English benchmark, which uses 2% of the original number of documents while maintaining rankings. 
 
 ```python
 import mteb
@@ -81,7 +81,7 @@ benchmark = mteb.get_benchmark("MTEB(eng, v2)")
 # Create an evaluation object
 evaluation = mteb.MTEB(tasks=benchmark)
 
-# Run evaluation. The datasets will be downloaded at this step.
+# Run evaluation. The datasets will be downloaded at this step. Results are written to disk. 
 results = evaluation.run(model)
 ```
 
