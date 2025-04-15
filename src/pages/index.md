@@ -29,6 +29,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 
 ## Papers
+* Chenghao Xiao, **Isaac Chung**, Imene Kerboua, Jamie Stirling et al. [MIEB: Massive Image Embedding Benchmark](https://arxiv.org/abs/2504.10471). arXiv preprint arXiv:2504.10471, 2025. 
 * Kenneth Enevoldsen, **Isaac Chung**, Imene Kerboua, Márton Kardos et al. [MMTEB: Massive Multilingual Text Embedding Benchmark](https://openreview.net/forum?id=zl3pfz4VCV). The Thirteenth International Conference on Learning Representation, 2025. 
 * **Isaac Chung**, Phat Vo, Arman C. Kizilkale, and Aaron Reite. [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648). arXiv preprint arXiv:2409.17648, 2024. 
 * Elizaveta Korotkova and **Isaac Chung**. [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110). arXiv preprint arXiv:2303.15110, 2023. 
