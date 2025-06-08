@@ -36,7 +36,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 ## Talks and Conferences
 * 2025 Berlin Buzzwords (Berlin, Germany): [Reproducibility in Embedding Benchmarks](https://2025.berlinbuzzwords.de/session/reproducibility-in-embedding-benchmarks/)
-* 2025 PyData London (London, UK): [Reproducibility in Embedding Benchmarks](https://cfp.pydata.org/london2025/talk/WJXMZP/)
+* 2025 PyData London (London, UK): [Reproducibility in Embedding Benchmarks](https://cfp.pydata.org/london2025/talk/WJXMZP/) | [Slides](https://drive.google.com/file/d/1qvTRpP0AoquSY8RPRXo2qQESTt21T6ph/view?usp=drive_link)
 * 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/): [Video](https://youtu.be/K-KhenQ3Scw?si=NDuiYk3acztovUti) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
 * 2024 Data Makers Fest (Porto, Portugal): Prototype to Production for RAG applications | [Slides](https://drive.google.com/file/d/1-58_qMcAXxDnf3iZIToGx7FACeJJmTl3/view?usp=sharing)
 * 2024 PyCon PL (Gliwice, Poland): [Transcend the Knowledge Barriers in RAG](https://pl.pycon.org/2024/en/agenda/) | [Slides](https://drive.google.com/file/d/1QUzd5etK0gd9aucXZs8rVyrcPhu-vDSk/view?usp=sharing)
