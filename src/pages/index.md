@@ -22,14 +22,14 @@ Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise sol
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate ([B.A.Sc in EngSci](https://engsci.utoronto.ca/)) and graduate ([M.A.Sc](https://www.utias.utoronto.ca/)) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. MTEB), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. [MTEB](https://github.com/embeddings-benchmark/mteb)), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
 
 
 
 
 
 ## Papers
-* **Isaac Chung**, Imene Kerboua and Márton Kardos and Roman Solomatin and Kenneth Enevoldsen. [Maintaining {MTEB}: Towards Long Term Usability and Reproducibility of Embedding Benchmarks](https://openreview.net/forum?id=qcPJs0KRZW). Championing Open-source DEvelopment in ML Workshop @ ICML 2025
+* **Isaac Chung**, Imene Kerboua and Márton Kardos and Roman Solomatin and Kenneth Enevoldsen. [Maintaining MTEB: Towards Long Term Usability and Reproducibility of Embedding Benchmarks](https://openreview.net/forum?id=qcPJs0KRZW). Championing Open-source DEvelopment in ML Workshop @ ICML 2025
 * Chenghao Xiao, **Isaac Chung**, Imene Kerboua, Jamie Stirling et al. [MIEB: Massive Image Embedding Benchmark](https://arxiv.org/abs/2504.10471). arXiv:2504.10471, 2025. 
 * Kenneth Enevoldsen, **Isaac Chung**, Imene Kerboua, Márton Kardos et al. [MMTEB: Massive Multilingual Text Embedding Benchmark](https://openreview.net/forum?id=zl3pfz4VCV). The Thirteenth International Conference on Learning Representation, 2025. 
 * **Isaac Chung**, Phat Vo, Arman C. Kizilkale, and Aaron Reite. [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648). arXiv:2409.17648, 2024. 
