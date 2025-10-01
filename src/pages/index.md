@@ -36,6 +36,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 * Elizaveta Korotkova and **Isaac Chung**. [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110). arXiv:2303.15110, 2023. 
 
 ## Talks and Conferences
+* 2025 PyCon Wrocław (Wrocław, Poland): [How AsyncIO Saved Our LLM production service](https://pyconwroclaw.com/schedule)
 * 2025 Berlin Buzzwords (Berlin, Germany): [Reproducibility in Embedding Benchmarks](https://2025.berlinbuzzwords.de/session/reproducibility-in-embedding-benchmarks/) | [Video](https://youtu.be/2867cDdQm4s?si=1OeM_sKvWp_TNSmJ) | [Slides](https://drive.google.com/file/d/1A2ORTNIV3JZYoEfdVOODadLy9V3hjvny/view?usp=sharing)
 * 2025 PyData London (London, UK): [Reproducibility in Embedding Benchmarks](https://cfp.pydata.org/london2025/talk/WJXMZP/) | [Slides](https://drive.google.com/file/d/1qvTRpP0AoquSY8RPRXo2qQESTt21T6ph/view?usp=drive_link)
 * 2024 Swiss Python Summit (Zurich, Switzerland): [Prototype to Production for RAG applications](https://pretalx.sifs0005.infs.ch/swiss-python-summit-2024/talk/99V9FC/) | [Video](https://youtu.be/K-KhenQ3Scw?si=NDuiYk3acztovUti) | [Slides](https://drive.google.com/file/d/1R9uMi8zxqTgu5YIg3MDg438JCvxX8Fm3/view?usp=sharing)
