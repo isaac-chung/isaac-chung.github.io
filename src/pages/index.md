@@ -29,16 +29,16 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 
 ## Papers
-* Adnan El Assadi, **Isaac Chung**, Roman Solomatin et al. [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008)
+* Adnan El Assadi, **Isaac Chung**, Roman Solomatin et al. [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008). arXiv:2602.16008, 2026. 
 * Adnan El Assadi, **Isaac Chung**, Roman Solomatin, Niklas Muennighoff, Kenneth Enevoldsen. [HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks](https://openreview.net/forum?id=rcmfu1ydAf). The Fourteenth International Conference on Learning Representation, 2026.
 * **Isaac Chung**, Imene Kerboua and Márton Kardos and Roman Solomatin and Kenneth Enevoldsen. [Maintaining MTEB: Towards Long Term Usability and Reproducibility of Embedding Benchmarks](https://openreview.net/forum?id=qcPJs0KRZW). Championing Open-source DEvelopment in ML Workshop @ ICML 2025
-* Chenghao Xiao, **Isaac Chung**, Imene Kerboua, Jamie Stirling et al. [MIEB: Massive Image Embedding Benchmark](https://arxiv.org/abs/2504.10471). arXiv:2504.10471, 2025. 
+* Chenghao Xiao, **Isaac Chung**, Imene Kerboua, Jamie Stirling et al. [MIEB: Massive Image Embedding Benchmark](https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MIEB_Massive_Image_Embedding_Benchmark_ICCV_2025_paper.html). International Conference on Computer Vision (ICCV) 2025. 
 * Kenneth Enevoldsen, **Isaac Chung**, Imene Kerboua, Márton Kardos et al. [MMTEB: Massive Multilingual Text Embedding Benchmark](https://openreview.net/forum?id=zl3pfz4VCV). The Thirteenth International Conference on Learning Representation, 2025. 
 * **Isaac Chung**, Phat Vo, Arman C. Kizilkale, and Aaron Reite. [Efficient In-Domain Question Answering for Resource-Constrained Environments](https://arxiv.org/abs/2409.17648). arXiv:2409.17648, 2024. 
 * Elizaveta Korotkova and **Isaac Chung**. [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110). arXiv:2303.15110, 2023. 
 
 ## Talks and Conferences
-* (Upcoming) 2026 PyCon Italia (Bologna, Italy): [Reproducibility in Embedding Benchmarks](https://2026.pycon.it/en/event/reproducibility-in-embedding-benchmarks)
+* 2026 PyCon Italia (Bologna, Italy): [Reproducibility in Embedding Benchmarks](https://2026.pycon.it/en/event/reproducibility-in-embedding-benchmarks) | [Slides](https://drive.google.com/file/d/1cYtS6d-SgNUlDFH_PaLpruY7kaBKUGHz/view?usp=sharing)
 * 2025 Data Science Summit (online): [Parametrized Synthetic Conversations for LLM Evaluation and Enablement](https://main.dssconf.pl/#agenda) | [Slides](https://drive.google.com/file/d/1DWyFdfILhrMYxz9eC1WBubO8Fe0I8sJF/view?usp=sharing)
 * 2025 PyCon Wrocław (Wrocław, Poland): [How AsyncIO Saved Our LLM production service](https://pyconwroclaw.com/schedule)
 * 2025 Berlin Buzzwords (Berlin, Germany): [Reproducibility in Embedding Benchmarks](https://2025.berlinbuzzwords.de/session/reproducibility-in-embedding-benchmarks/) | [Video](https://youtu.be/2867cDdQm4s?si=1OeM_sKvWp_TNSmJ) | [Slides](https://drive.google.com/file/d/1A2ORTNIV3JZYoEfdVOODadLy9V3hjvny/view?usp=sharing)
