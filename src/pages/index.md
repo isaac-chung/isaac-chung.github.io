@@ -29,6 +29,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 
 ## Papers
+* Adnan El Assadi, Roman Solomatin, **Isaac Chung**, Chenghao Xiao, et al. [MVEB: Massive Video Embedding Benchmark](https://arxiv.org/abs/2606.14958). arXiv:2602.16008, 2026. 
 * Adnan El Assadi, **Isaac Chung**, Roman Solomatin et al. [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008). arXiv:2602.16008, 2026. 
 * Adnan El Assadi, **Isaac Chung**, Roman Solomatin, Niklas Muennighoff, Kenneth Enevoldsen. [HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks](https://openreview.net/forum?id=rcmfu1ydAf). The Fourteenth International Conference on Learning Representation, 2026.
 * **Isaac Chung**, Imene Kerboua and Márton Kardos and Roman Solomatin and Kenneth Enevoldsen. [Maintaining MTEB: Towards Long Term Usability and Reproducibility of Embedding Benchmarks](https://openreview.net/forum?id=qcPJs0KRZW). Championing Open-source DEvelopment in ML Workshop @ ICML 2025
