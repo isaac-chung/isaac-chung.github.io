@@ -39,7 +39,7 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 * Elizaveta Korotkova and **Isaac Chung**. [Beyond Toxic: Toxicity Detection Datasets are Not Enough for Brand Safety](https://arxiv.org/abs/2303.15110). arXiv:2303.15110, 2023. 
 
 ## Talks and Conferences
-* 2026 PyCon Italia (Bologna, Italy): [Reproducibility in Embedding Benchmarks](https://2026.pycon.it/en/event/reproducibility-in-embedding-benchmarks) | [Slides](https://drive.google.com/file/d/1cYtS6d-SgNUlDFH_PaLpruY7kaBKUGHz/view?usp=sharing)
+* 2026 PyCon Italia (Bologna, Italy): [Reproducibility in Embedding Benchmarks](https://2026.pycon.it/en/event/reproducibility-in-embedding-benchmarks) | [Video](https://youtu.be/X8XmVM3TTCA?si=8gyeP3Iyn3rMH-Vy) |  [Slides](https://drive.google.com/file/d/1cYtS6d-SgNUlDFH_PaLpruY7kaBKUGHz/view?usp=sharing)
 * 2025 Data Science Summit (online): [Parametrized Synthetic Conversations for LLM Evaluation and Enablement](https://main.dssconf.pl/#agenda) | [Slides](https://drive.google.com/file/d/1DWyFdfILhrMYxz9eC1WBubO8Fe0I8sJF/view?usp=sharing)
 * 2025 PyCon Wrocław (Wrocław, Poland): [How AsyncIO Saved Our LLM production service](https://pyconwroclaw.com/schedule)
 * 2025 Berlin Buzzwords (Berlin, Germany): [Reproducibility in Embedding Benchmarks](https://2025.berlinbuzzwords.de/session/reproducibility-in-embedding-benchmarks/) | [Video](https://youtu.be/2867cDdQm4s?si=1OeM_sKvWp_TNSmJ) | [Slides](https://drive.google.com/file/d/1A2ORTNIV3JZYoEfdVOODadLy9V3hjvny/view?usp=sharing)
