@@ -29,8 +29,9 @@ I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time
 
 
 ## Papers
-* Adnan El Assadi, Roman Solomatin, **Isaac Chung**, Chenghao Xiao, et al. [MVEB: Massive Video Embedding Benchmark](https://arxiv.org/abs/2606.14958). arXiv:2602.16008, 2026. 
-* Adnan El Assadi, **Isaac Chung**, Roman Solomatin et al. [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008). arXiv:2602.16008, 2026. 
+* Adnan El Assadi, Roman Solomatin, **Isaac Chung**, Chenghao Xiao, et al. [MVEB: Massive Video Embedding Benchmark](https://arxiv.org/abs/2606.14958). The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026. 
+* Adnan El Assadi, **Isaac Chung**, Roman Solomatin et al. [MAEB: Massive Audio Embedding Benchmark](https://arxiv.org/abs/2602.16008). The Fortieth Annual Conference on Neural Information Processing Systems Evaluations and Datasets Track, 2026. 
+* Sahil Verma, ..., Roman Solomatin, **Isaac Chung**, Tom Aarsen, et al. [RTEB: An Overfitting-Resistant Benchmark for Embedding Model Evaluation](). The Fortieth Annual Conference on Neural Information Processing Systems Evaluations and Datasets Track, 2026.
 * Adnan El Assadi, **Isaac Chung**, Roman Solomatin, Niklas Muennighoff, Kenneth Enevoldsen. [HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks](https://openreview.net/forum?id=rcmfu1ydAf). The Fourteenth International Conference on Learning Representation, 2026.
 * **Isaac Chung**, Imene Kerboua and Márton Kardos and Roman Solomatin and Kenneth Enevoldsen. [Maintaining MTEB: Towards Long Term Usability and Reproducibility of Embedding Benchmarks](https://openreview.net/forum?id=qcPJs0KRZW). Championing Open-source DEvelopment in ML Workshop @ ICML 2025
 * Chenghao Xiao, **Isaac Chung**, Imene Kerboua, Jamie Stirling et al. [MIEB: Massive Image Embedding Benchmark](https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MIEB_Massive_Image_Embedding_Benchmark_ICCV_2025_paper.html). International Conference on Computer Vision (ICCV) 2025. 
