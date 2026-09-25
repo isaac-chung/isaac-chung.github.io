@@ -16,13 +16,13 @@ keywords: [Isaac Chung, AI, Research, ML, ML Scientist, Engineering, ML Engineer
 </center>
 
 ## Hi!👋 I'm Isaac.
-My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Scientist at [Zendesk](https://www.zendesk.com/service/quality-assurance/).
+My focus is on making AI systems scalable and maintainable. Currently I'm a Staff Machine Learning Engineer at [Foam](https://www.foam.io).
 
-Previously at [Clarifai](https://www.clarifai.com/), I led custom enterprise solution development for visual search and text moderation, built multi-modal retrieval systems, and led applied research in improving question-answering systems. I have spoken at various Python,  ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
+Previously I've worked on building ML-powered product features in the customer support domain (reasoning, query understanding & rewrite, query intents, query routing), and multi-modal search systems for product discovery. I have spoken at various Python & ML conferences, and meet ups in Europe. My stack includes Python, Docker, Kubernetes, PostgreSQL, and Go. 
 
 My background is in Aerospace Engineering and Machine Learning and I hold undergraduate ([B.A.Sc in EngSci](https://engsci.utoronto.ca/)) and graduate ([M.A.Sc](https://www.utias.utoronto.ca/)) degrees from the University of Toronto. 
 
-I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. [MTEB](https://github.com/embeddings-benchmark/mteb)), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, and hiking. 
+I work remotely in Europe, currently based in Tallinn, Estonia. In my spare time, I try to contribute to open source projects (e.g. [MTEB](https://github.com/embeddings-benchmark/mteb)), see the world, and stay active. I used to race triathlons actively (a sneak peek [here](https://triathlon.org/athletes/profile/126314/isaac-chung) and [here](https://sportstats.one/results/101584?focus=156&type=pid)). These days I'm more into cycling, running, bouldering, and hiking. 
 
 
 
